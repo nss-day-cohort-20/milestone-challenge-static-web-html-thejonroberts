@@ -1,0 +1,26 @@
+/*Color Palette: (from Google Material Design)
+	Primary - Light Blue 500: 
+	P        : #03a9f4
+	P — Light: #67daff
+	P — Dark : #007ac1
+	Secondary - Blue Grey 600: 
+	S        : #546e7a
+	S — Light: #819ca9
+	S — Dark : #29434e
+	Text on P:
+	White    : #000000
+	Text on S
+	Black    : #ffffff*/
+
+* {
+	margin: 0;
+	padding: 0;
+	background-color:  #67daff;
+	color: #000000;
+	border: .5px solid #546e7a;
+}
+
+
+
+
+
