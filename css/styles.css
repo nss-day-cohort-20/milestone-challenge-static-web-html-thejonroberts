@@ -20,7 +20,54 @@
 	border: .5px solid #546e7a;
 }
 
+nav ul li {
+	display: inline;
+}
 
+.flexContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header.flexContainer {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+nav {
+	width: 100%;
+	display: inline-flex;
+	align-items: flex-end;
+}
+nav ul {
+	display: inline-flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+	align-content: flex-end;
+}
+
+.pageContent {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.primaryContent {
+	flex: 8;
+	order: 2;
+}
+
+.secondaryContent {
+	flex: 2;
+	order: 3;
+}
+
+.tertiaryContent {
+	flex: 1;
+	order: 1;
+}
 
 
 
