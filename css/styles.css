@@ -25,6 +25,7 @@ body {
 	background-color: #007ac1;
 	font-family: 'Helvetica', serif;
 	font-weight: 300;
+	font-size: 1.1em;
 }
 
 header {
@@ -69,6 +70,7 @@ footer {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	background-color: #29434e;
+	border-top: 2px solid #03a9f4;
 	color: white;
 	font-family: 'Playfair Display SC', serif;
 	padding: .2em;
@@ -96,19 +98,34 @@ h6 {
 	font-family: 'Playfair Display SC', serif;
 }
 
+h1 {
+	font-size: 2.5em;
+	padding: .05em
+}
+
+h2 {
+	background-color: #007ac1;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	border-bottom: 2px solid #03a9f4;
+	border-top: 2px solid #03a9f4;
+	padding: .35em;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
 p {
 	padding: .4em;
+	font-size: .85em;
 }
 
 span {
 	padding: .2em;
 }
-h2 {
-	background-color: #67daff;
-	text-align: center;
-	width: 100%;
-	color: #000000;
-}
+
 
 .articleFlexContainer {
 	width: 100%;
@@ -140,24 +157,29 @@ h2 {
 	box-shadow: 0 .3em .3em -.2em #29434e;
 }
 
-#topHeadline {
+/*#topHeadline {
 	padding-top: .3em; 
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
 	margin-top: 0;
+}*/
+
+.secondaryContent,
+.tertiaryContent {
+	background-color: #546e7a;
+	font-size: .75em;
+	flex: 2;
+	padding: .3em .4em;
 }
 
 .secondaryContent {
-	flex: 2;
 	order: 3;
-	background-color: #546e7a;
 	box-shadow: inset .1em .1em .4em .1em #29434e;
 }
 
 .tertiaryContent {
 	flex: 2;
 	order: 1;
-	background-color: #546e7a;
 	box-shadow: inset -.1em .1em .4em .1em #29434e;
 }
 
