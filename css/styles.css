@@ -19,10 +19,12 @@
 
 body {
 	min-height: 100vh;
-	background-color: #007ac1;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	background-color: #007ac1;
+	font-family: 'Helvetica', serif;
+	font-weight: 300;
 }
 
 header {
@@ -32,6 +34,8 @@ header {
 	justify-content: space-between;
 	background-color: #29434e;
 	color: white;
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 700;
 }
 
 nav {
@@ -47,6 +51,7 @@ nav ul {
 nav ul li {
 	display: inline;
 	margin: 0 .5em;
+	padding: .2em;
 }
 
 nav a {
@@ -61,12 +66,31 @@ footer {
 	justify-content: space-between;
 	background-color: #29434e;
 	color: white;
+	font-family: 'Playfair Display SC', serif;
 }
 
 article {
 	flex-grow: 1;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: .2em;
+	font-weight: 700;
+	font-family: 'Playfair Display SC', serif;
+}
+
+p {
+	padding: .2em;
+}
+
+span {
+	padding: .2em;
+}
 h2 {
 	background-color: #67daff;
 	text-align: center;
