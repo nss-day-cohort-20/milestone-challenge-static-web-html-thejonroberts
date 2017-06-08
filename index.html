@@ -9,9 +9,9 @@
 <!-- BODY -->	
 	<body>
 	<!-- HEADER -->
-		<header class="flexContainer">
+		<header class="flexContainer" id="top">
 			<div>
-				<img src="./images/chisel-vert-lightblue.png">
+				<img src="./images/chisel-vert-lightblue.png" alt="Chisel Icon">
 				<h1>Jon Roberts</h1>
 				<h3>Apprentice Software Developer</h3>
 				<p>HTML Challenge Exercise</p>
@@ -35,7 +35,7 @@
 				<!-- PRIMARY-CONTENT -->
 				<div class="primaryContent">
 						<section>
-						<h3 id="topHeadline">Lorem Ipsum!</h3>
+						<h3 class="topHeadline">Lorem Ipsum!</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -61,50 +61,53 @@
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</section>
-					</div>
+				</div>
 				<!-- SECONDARY CONTENT -->
 				<div class="secondaryContent">
-					<article>
-						<section>
-							<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-							<p>Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.
-							</p>
-						</section>
-					</article>
+					<section>
+						<h5>Extra Info</h5>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<p>Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.
+						</p>
+					</section>
 				</div>
 				<!-- TERTIARY CONTENT -->
 				<div class="tertiaryContent">
-					<article>
-						<img src="./images/jonRoberts200.png">
-						<section>
-							<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.
-							</p> 
-							<p> 
-							Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. 
-							</p>
-						</section>
-					</article>
+					<img src="./images/jonRoberts200.png" alt="Photo of Jon Roberts">
+					<section>
+					<h5>Extra Info</h5>
+						<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+						</p> 
+						<p> 
+						Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. 
+						</p>
+					</section>
 				</div>
-					</article>
-				</div>
+			</div>
 			<!--*******************-->
-			</article>
-		</div>
-	<!-- FOOTER -->
+		</article>
+		<!-- FOOTER -->
 		<footer>
 			<span>2017</span> <!-- js get time object? -->
-			<span>Social Media Icons</span><span>email icon</span>
+			<span>
+				<a href="#"><img src="./images/GitHub-Mark-Light-120px-plus.png" alt="Github Icon"></a>
+				<a href="#"><img src="./images/ic_mail_white_36dp.png" alt="Email Icon"></a>
+				<a href="#"><img src="./images/In-White-101px-R.png" alt="LinkedIn Icon"></a>
+			</span>
+			<span>
+				<a href="#top">^back to top</a>
+			</span>
 		</footer>
-	<!-- SCRIPTS -->
-	<script src="scripts/main.js"></script>
+		<!-- SCRIPTS -->
+		<script src="scripts/main.js"></script>
 	</body>
 </html>

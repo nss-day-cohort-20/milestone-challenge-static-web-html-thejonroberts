@@ -88,7 +88,22 @@ footer {
 
 footer span {
 	margin: 0;
-	padding: .2em .8em .8em;
+	padding: .2em .8em .2em;
+	min-width: 200px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer span img {
+	max-width: 25px;
+	margin: 0 .8em;
+}
+
+footer span:last-of-type {
+	text-align: right;
 }
 
 article {
