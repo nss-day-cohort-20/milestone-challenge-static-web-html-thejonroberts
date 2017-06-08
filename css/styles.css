@@ -40,6 +40,16 @@ header {
 	font-weight: 700;
 }
 
+header div {
+	flex-grow: 1;
+}
+header div img {
+	max-height: 125px;
+	float: left;
+	margin: 0 .7em 0 0;
+	padding: 0 0 .3em 0;
+}
+
 nav {
 	display: inline-flex;
 	align-items: flex-end;
@@ -110,7 +120,8 @@ h2 {
 	color: #fff;
 	border-bottom: 2px solid #03a9f4;
 	border-top: 2px solid #03a9f4;
-	padding: .35em;
+	padding: .2em .3em .3em;
+
 	font-size: 2em;
 }
 
@@ -181,6 +192,12 @@ span {
 	flex: 2;
 	order: 1;
 	box-shadow: inset -.1em .1em .4em .1em #29434e;
+}
+
+.tertiaryContent img {
+	max-width: 80%;
+	border-radius: 50%;
+	margin: 1em auto;
 }
 
 
