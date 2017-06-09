@@ -24,7 +24,7 @@ header {
 	flex-wrap       : wrap;
 	justify-content : space-between;
 	background-color: #29434e;
-	padding         : .5em .5em .1em;
+	padding         : .5em 0em .1em;
 	color           : white;
 	font-family     : 'Playfair Display SC', serif;
 	font-weight     : 700;
@@ -37,7 +37,7 @@ header div img {
 	max-height: 125px;
 	float     : left;
 	margin    : 0 .7em 0 0;
-	padding   : 0 0 .3em 0;
+	padding   : 0 0 .3em .3em;
 }
 /*------- NAVIGATION ------------------------------*/
 nav {
@@ -150,6 +150,10 @@ p {
 
 span {
 	padding: .2em;
+}
+
+#blog article span {
+	font-size: .6em;
 }
 
 ul {

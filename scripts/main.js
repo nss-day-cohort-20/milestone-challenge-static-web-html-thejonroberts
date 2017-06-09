@@ -2,11 +2,13 @@
 const blogEntry = {
 	date: "June 1, 2017",
 	title: "Week 1",
-	paragraphs: {"lorem ipsum", 
-				"borem impsome"
-				}
+	paragraphs: ["Monday: lorem ipsum", 
+				"Tuesday: snorem skipsum",
+				"Wednesday: moer ipsum"
+				]
 	// imageURL: ,
 	};
+	// console.log('blogEntry', blogEntry);
 
 //put blog entry into blog posts
 //let blogPosts = {};
@@ -14,12 +16,31 @@ const blogEntry = {
 
 //format posts to HTML
 let blog = document.getElementById("blogPosts");
+let blogPostHTML = "";
 
-function formatPostHTML() {}
+function formatPostHTML() {
+	let paragraphHTMLString = "";
+	for (i=0; i < blogEntry.paragraphs.length; i++) {
+		paragraphHTMLString += `<p>${blogEntry.paragraphs[i]}</p>`;
+		};
+	blogPostHTML = `<article>
+					<h3>${blogEntry.title}</h3>
+					${paragraphHTMLString}
+					<span>${blogEntry.date}</span>
+				</article>`
+}
+formatPostHTML();
+console.log('blogPost', blogPostHTML);
+
+//write blogPost to DOM
+function blogPostDOM() {
+	blog.innerHTML += blogPostHTML;
+}
+blogPostDOM();
 
 //put all blog posts into Blog Section
-let blogSection = {};
-function formaBlogSection() {}
+// let blogSection = {};
+// function formaBlogSection() {}
 
 
 // <section id="blog">
