@@ -207,13 +207,6 @@ section {
 	box-shadow      : 0 .3em .3em -.2em #29434e;
 }
 
-/*#topHeadline {
-	padding-top            : .3em; 
-	border-top-right-radius: 0;
-	border-top-left-radius : 0;
-	margin-top             : 0;
-}*/
-
 /*------- Sidebar/other content ------------------------------*/
 .secondaryContent,
 .tertiaryContent {
@@ -236,9 +229,11 @@ section {
 	box-shadow: inset -.1em .1em .4em .1em #29434e;
 }
 
+/*------- Images ------------------------------*/
 .tertiaryContent img {
 	max-width    : 80%;
 	border: 1.5px solid #67daff;
 	border-radius: 50%;
-	margin       : 1em auto;
+	margin       : 1em auto 1em;
+	display: block;
 }
