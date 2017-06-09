@@ -54,3 +54,4 @@ function blogPostDOM() {
 	blog.innerHTML = blogPostHTML;
 }
 blogPostDOM();
+
