@@ -178,9 +178,9 @@ h2 {
 	text-align      : center;
 	width           : 100%;
 	color           : #fff;
-	border-bottom   : 4px solid #29434e;
 	border-top      : 3px solid #03a9f4;
-	padding         : .2em .3em .3em;
+	border-bottom   : 4px solid #03a9f4;
+	padding         : 0 .3em .05em;
 
 	font-size: 2em;
 }
