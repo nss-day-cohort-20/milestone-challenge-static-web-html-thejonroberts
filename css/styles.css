@@ -16,7 +16,6 @@
 	margin : 0;
 	padding: 0;
 }
-
 /*-------======= LINKS ========---------*/
 a:active, 
 a:hover, 
@@ -53,7 +52,6 @@ header a:active {
 	color: #67daff;
 }
 /*a:active, a:hover, a:link a:visited
-
 /*------- HEADER ------------------------------*/
 header {
 	width           : 100%;
@@ -61,32 +59,40 @@ header {
 	flex-wrap       : wrap;
 	justify-content : space-between;
 	background-color: #29434e;
-	padding         : .5em 0em .1em;
-	color           : white;
+/*	padding         : .5em 0em .1em;
+*/	color           : white;
 	font-family     : 'Playfair Display SC', serif;
 	font-weight     : 700;
 }
 
 header div {
 	flex-grow: 1;
-}
+/*	padding: .3em .3em 0 1em;
+*/}
 
 
-header div img {
-	max-height: 4.8em;
-	float     : left;
-	margin    : 0 .7em 0 0;
-	padding   : 0 0 .3em .3em;
-}
+header img {
+/*	max-height: 4.8em;*/
+	width: 50%;
+	max-width: 380px;
+/*	float     : left;*/
+	margin    : 0 0 0 0;
+	padding   : 0 5em .3em .3em;
+/*	align-self: center;
+*/}
 
 header h3 {
-	padding: 0 0 .25em;
-}
-
+/*	padding: 0 0 .25em;
+*/}
 /*------- NAVIGATION ------------------------------*/
 nav {
-	display    : inline-flex;
+	display    : flex;
+	flex-direction: column;
 	align-items: flex-end;
+/*	text-align: right;*/
+	justify-content: space-between;
+	align-content: center;
+	flex-grow: 1;
 }
 nav ul {
 	display        : inline-flex;
@@ -105,7 +111,6 @@ nav a {
 	margin         : 0 .5em;
 	padding        : .5em .5em .1em;
 }
-
 /*------- FOOTER ------------------------------*/
 footer {
 	width           : 100%;
@@ -139,8 +144,6 @@ footer span img {
 footer span:last-of-type {
 	text-align: right;
 }
-
-
 /*------- BODY ------------------------------*/
 
 body {
@@ -211,7 +214,6 @@ ul li ul li {
 	margin: .1em .3em;
 	padding: .1em .3em;
 }
-
 /*------- FLEX BOXES ------------------------------*/
 /*Section*/
 section {
@@ -233,7 +235,6 @@ section {
 	font-size       : 1.2em;
 	flex-grow       : 4;
 }
-
 /*------- Primary Content ------------------------------*/
 #contentWrapper {
 	flex: 1;
@@ -259,7 +260,6 @@ section {
 	margin          : .2em;
 	box-shadow      : 0 .3em .3em -.2em #29434e;
 }
-
 /*------- Sidebar/other content ------------------------------*/
 .secondaryContent,
 .tertiaryContent {
@@ -268,20 +268,17 @@ section {
 	flex            : 2;
 	padding         : .3em .4em;
 }
-
 /*------- Secondary Sidebar ------------------------------*/
 .secondaryContent {
 	order     : 3;
 	box-shadow: inset .1em .1em .4em .1em #29434e;
 }
-
 /*------- Tertiary Sidebar ------------------------------*/
 .tertiaryContent {
 	flex      : 2;
 	order     : 1;
 	box-shadow: inset -.1em .1em .4em .1em #29434e;
 }
-
 /*------- Images ------------------------------*/
 .tertiaryContent img {
 	max-width    : 80%;
