@@ -69,7 +69,7 @@ footer {
 	flex-wrap       : nowrap;
 	justify-content : space-between;
 	background-color: #29434e;
-	border-top      : 2px solid #03a9f4;
+	border-top      : 3px solid #03a9f4;
 	color           : white;
 	font-family     : 'Playfair Display SC', serif;
 	padding         : .2em;
@@ -131,8 +131,8 @@ h2 {
 	text-align      : center;
 	width           : 100%;
 	color           : #fff;
-	border-bottom   : 2px solid #03a9f4;
-	border-top      : 2px solid #03a9f4;
+	border-bottom   : 4px solid #29434e;
+	border-top      : 3px solid #03a9f4;
 	padding         : .2em .3em .3em;
 
 	font-size: 2em;
@@ -178,16 +178,16 @@ a:visited {
 	color: inherit;
 }
 
-a:link,
-a:visited {
-	color: #67daff;
+section a:link,
+section a:visited {
+	color: #007ac1;
 }
 
-a:hover {
+section a:hover {
 	color: #03a9f4;
 }
 
-a:active {
+section a:active {
 	color: #fff;
 }
 /*a:active, a:hover, a:link a:visited
