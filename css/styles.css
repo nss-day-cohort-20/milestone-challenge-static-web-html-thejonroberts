@@ -17,6 +17,43 @@
 	padding: 0;
 }
 
+/*-------======= LINKS ========---------*/
+a:active, 
+a:hover, 
+a:link, 
+a:visited {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1em;
+}
+
+a:link,
+a:visited {
+	color: #007ac1;
+}
+
+a:hover {
+	color: #03a9f4;
+}
+
+a:active {
+	color: #29434e;
+}
+
+header a:link,
+header a:visited {
+	color: #fff;
+}
+
+header a:hover {
+	color: #03a9f4;
+}
+
+header a:active {
+	color: #67daff;
+}
+/*a:active, a:hover, a:link a:visited
+
 /*------- HEADER ------------------------------*/
 header {
 	width           : 100%;
@@ -33,12 +70,19 @@ header {
 header div {
 	flex-grow: 1;
 }
+
+
 header div img {
-	max-height: 125px;
+	max-height: 4.8em;
 	float     : left;
 	margin    : 0 .7em 0 0;
 	padding   : 0 0 .3em .3em;
 }
+
+header h3 {
+	padding: 0 0 .25em;
+}
+
 /*------- NAVIGATION ------------------------------*/
 nav {
 	display    : inline-flex;
@@ -167,30 +211,6 @@ ul li ul li {
 	margin: .1em .3em;
 	padding: .1em .3em;
 }
-
-a:active, 
-a:hover, 
-a:link, 
-a:visited {
-	text-decoration: none;
-	font-weight: 500;
-	font-size: 1em;
-	color: inherit;
-}
-
-section a:link,
-section a:visited {
-	color: #007ac1;
-}
-
-section a:hover {
-	color: #03a9f4;
-}
-
-section a:active {
-	color: #fff;
-}
-/*a:active, a:hover, a:link a:visited
 
 /*------- FLEX BOXES ------------------------------*/
 /*Section*/

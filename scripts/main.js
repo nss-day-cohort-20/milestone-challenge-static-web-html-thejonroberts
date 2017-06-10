@@ -39,7 +39,7 @@ let workHTML = `<article>
 						This website is an ongoing project as I learn more. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
 				</article>`;
-//Work/Portfolio Page ------------------------------------------
+//Links Page ------------------------------------------
 let linksHTML = `<article>
 				<h3>Keep your tools sharp!</h3>
 					<p>Here some of the best resources I have found and used in my work:</p>
@@ -84,11 +84,11 @@ let linksHTML = `<article>
 					<p>Go play <a href="http://candies.aniwey.net/">Candy Box!</a> or <a href="http://candybox2.net/">its sequel</a>!</p>
 					<p>Watch <a href="https://www.youtube.com/user/PaulSellersWoodwork">Paul Sellers</a>, the Bob Ross of woodworking.</p>
 				</article>`;
-//Work/Portfolio Page ------------------------------------------
+//About Me Page ------------------------------------------
 bioHTML = `<article>
 			<h3>Background</h3>
 			<p>
-				I grew up in rural southern Indiana, near a small town named Bloomfield.  Our house was perched on a hill of a gravel road through a valley referred to as 'the American Bottoms' in eastern Greene County.
+				I grew up in rural southern Indiana, near a small town named Bloomfield.  Our house was perched on a hill on the edge of a valley referred to as 'the American Bottoms,' in eastern Greene County.
 			</p>
 			<p>
 				The area is largely a 'bedroom community', and most people commute to Bloomington, IN to work.  For whatever reason, country life never appealed to me, and I took to the city as soon as I could.  I have since lived in Terre Haute, Bloomington, Chicago, Austin, and have settled, for a while at least, on Nashville.
@@ -97,7 +97,7 @@ bioHTML = `<article>
 				I have worked in a variety of fields in that time.  I graduated from Indiana University with a B.S. in Mathematics Education.  That's when I moved to Chicago and started working in bars and ended up bartending and managing a music venue, called the Mutiny.  I did that for quite a few years before moving to Austin and resuming teaching.  I had a rough year there, and decided to move a little closer to home.  A friend needed a roomie, so I headed to Nashville.
 			</p>
 			<p>
-				I got a sales job with a pretty good company.  I never expected to end up in sales, but it was a tolerable work environment, and I was at least average at it.  Plus, I had a 401k and good benefits for the first time ever.  What a rush! ;) I met some great friends there, but it grew less and less tolerable as time went on.
+				I got a sales job with a pretty good company.  I never expected to end up in sales, but it was a tolerable work environment, and I was at least average at it. I met some great friends there, but it grew less and less tolerable as time went on.
 			</p>
 			<p>
 				While all of this was happening, I was always telling myself I should learn how to code. My mom taught Computer Applications classes at the high school.  So we always had a computer and internet (dial-up until 2010--2010!!!), so I was very fortunate to have a decent exposure to tech growing up.  I eventually managed to build a moderately functional website for the venue I bartended at in my spare time.  I made a few runs at CodeAcademy and the like, but would always get distracted by... life.
@@ -106,14 +106,14 @@ bioHTML = `<article>
 				I had been researching "Coding Bootcamps" for a while when I found out about Nashville Software School.  I came to an info session.  John Wark gave us the works.  A guy who founded the school was talking passionately to a handful of people about its goals, patiently answering questions. It did not feel like a sales pitch, as some other info sessions had... I was extremely impressed--with John, yes, but more with the school's straightforward attitude and their approach to education.  Luckily, I was accepted...  Here we go!
 			</p>
 	</article>`
-//Work/Portfolio Page ------------------------------------------
+//Home Page ------------------------------------------
 homeHTML = `<article>
 				<h3>HTML Challenge Exercise</h3>
 				<p>This is a milestone challenge for Nashville Software School.  I hope to have some more content here shortly.</p>
 			</article>`
-//Work/Portfolio Page ------------------------------------------
-//Work/Portfolio Page ------------------------------------------
-//Work/Portfolio Page ------------------------------------------
+//Contact Page ------------------------------------------
+//Page ------------------------------------------
+//Page ------------------------------------------
 //initialize DOM Element and Nav Links
 let primaryContent = document.getElementById("primaryContent");
 let contentHeadline = document.getElementById("contentHeadline")
