@@ -107,6 +107,10 @@ bioHTML = `<article>
 			</p>
 	</article>`
 //Work/Portfolio Page ------------------------------------------
+homeHTML = `<article>
+				<h3>HTML Challenge Exercise</h3>
+				<p>This is a milestone challenge for Nashville Software School.  I hope to have some more content here shortly.</p>
+			</article>`
 //Work/Portfolio Page ------------------------------------------
 //Work/Portfolio Page ------------------------------------------
 //Work/Portfolio Page ------------------------------------------
@@ -145,10 +149,10 @@ bioLinkItem.addEventListener("click", function() {
 // 	contentHeadline.innerHTML = "Portfolio";
 // 	primaryContent.innerHTML = "";
 // });
-// homeLinkItem.addEventListener("click", function() {
-// 	contentHeadline.innerHTML = "Portfolio";
-// 	primaryContent.innerHTML = "";
-// });
+homeLinkItem.addEventListener("click", function() {
+	contentHeadline.innerHTML = "Welcome!";
+	primaryContent.innerHTML = homeHTML;
+});
 
 //-------------==========STATIC DOM INSERTIONS----------------
 
