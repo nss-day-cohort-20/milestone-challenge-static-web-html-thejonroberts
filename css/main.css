@@ -12,11 +12,7 @@
 	Text on S
 	Black    : #ffffff*/
 
-
-
 /*-------Flex Box Setup ------------------------------*/
-
-
 
 body {
 	display         : flex;
@@ -24,25 +20,24 @@ body {
 	min-height      : 100vh;
 	justify-content : space-between;
 }
-.sectionFlexBox {
+
+.contentFlexColumn {
 	flex-grow: 1;
 }
 
 .sectionFlexBox {
-	flex-grow       : 4;
-}
-.tertiaryContent {
-/*	order: -1;*/
+	flex-grow: 1;
 }
 
+/*.tertiaryContent {
+/*	order: -1;
+}*/
 
-/*-------========TEXT Elements*/
+/*-------========Reset====------*/
 * {
 	margin : 0;
 	padding: 0;
 }
-
-
 /*-------======= LINKS ========---------*/
 
 body {
