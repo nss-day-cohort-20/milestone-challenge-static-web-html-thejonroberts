@@ -91,7 +91,6 @@ span {
 	padding: 0 .7em;
 }
 ul {
-/*	margin: .1em .3em;*/
 	padding: .1em 0;
 	list-style-type: none;
 	font-size: 1em;
@@ -104,46 +103,20 @@ ul li ul li {
 /*------- HEADER ------------------------------*/
 header {
 	width           : 100%;
-/*	display         : inline-flex;
-	flex-wrap       : wrap;
-	justify-content : space-between;*/
 	background-color: #29434e;
-/*	padding         : .5em 0em .1em;
-*/	color           : white;
+	color           : white;
 	font-family     : 'Playfair Display SC', serif;
 	font-weight     : 700;
 	text-align: center;
 }
-
-/*header div {
-	flex-grow: 1;
-	padding: .3em .3em 0 1em;
-}*/
-
 header img {
 	display: none;
-/*	max-height: 4.8em;*/
-	width: 50%;
+	width: 75%;
 	max-width: 380px;
-/*	float     : left;*/
 	margin    : 0 0 0 0;
-	padding   : 0 5em .3em .3em;
-/*	align-self: center;
-*/}
-
-/*header h3 {
-	padding: 0 0 .25em;
-}*/
+	padding-top   : .8em;
+}
 /*------- NAVIGATION ------------------------------*/
-/*nav {
-	display    : flex;
-	flex-direction: column;
-	align-items: flex-end;
-	text-align: right;
-	justify-content: space-between;
-	align-content: center;
-	flex-grow: 1;
-}*/
 nav ul {
 	display        : inline-flex;
 	flex-wrap      : wrap-reverse;
@@ -263,9 +236,22 @@ footer span:last-of-type {
 		max-width: 80%;
 		margin: 0 auto;
 	}
-	/*.header img {
-		display: block;
-	}*/
+	header {
+		display: inline-flex;
+		justify-content: space-between;
+	}
+	nav {
+	display    : flex;
+	flex-direction: column;
+	/*align-items: flex-end*/;
+	justify-content: space-between;
+	align-content: center;
+	}
+	nav img {
+	display: block;
+	margin: 0 auto;
+	}
+
 }
 
 
