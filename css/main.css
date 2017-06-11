@@ -1,17 +1,8 @@
-/*Color Palette: (from Google Material Design)
-	Primary - Light Blue 500: 
-	P        : #03a9f4
-	P — Light: #67daff
-	P — Dark : #007ac1
-	Secondary - Blue Grey 600: 
-	S        : #546e7a
-	S — Light: #819ca9
-	S — Dark : #29434e
-	Text on P:
-	White    : #000000
-	Text on S
-	Black    : #ffffff*/
-
+/*----------Color Palette: (from Google Material Design)
+	Primary - Light Blue 500: 			Secondary - Blue Grey 600: 
+	P        : #03a9f4					S        : #546e7a
+	P — Light: #67daff					S — Light: #819ca9
+	P — Dark : #007ac1					S — Dark : #29434e
 /*-------Flex Box Setup ------------------------------*/
 body {
 	display         : flex;
@@ -21,13 +12,9 @@ body {
 }
 .contentFlexColumn {
 	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
 }
-.sectionFlexBox {
-	flex-grow: 1;
-}
-/*.tertiaryContent {
-/*	order: -1;
-}*/
 /*-------========Reset====------*/
 * {
 	margin : 0;
@@ -103,20 +90,17 @@ span {
 	font-size: .6em;
 	padding: 0 .7em;
 }
-
 ul {
 /*	margin: .1em .3em;*/
 	padding: .1em 0;
 	list-style-type: none;
 	font-size: 1em;
 }
-
 ul li ul li {
 	font-size: .8em;
 	margin: .1em .3em;
 	padding: .1em .3em;
 }
-
 /*------- HEADER ------------------------------*/
 header {
 	width           : 100%;
@@ -135,7 +119,6 @@ header {
 	flex-grow: 1;
 	padding: .3em .3em 0 1em;
 }*/
-
 
 header img {
 	display: none;
@@ -173,10 +156,8 @@ nav ul li {
 	padding        : .2em 0;
 	list-style-type: none;
 }
-
 nav a {
 	margin         : 0 .5em;
-/*	padding        : 1em .2em;*/
 }
 /*------- FOOTER ------------------------------*/
 footer {
@@ -189,18 +170,15 @@ footer {
 	color           : white;
 	font-family     : 'Playfair Display SC', serif;
 }
-
 footer span {
 	margin   : 0;
 	padding  : .2em;
 	min-width: 20%;
 }
-
 footer a {
 	text-decoration: none;
 	color          : #fff;
 }
-
 /*Social Media Icons*/
 footer span img {
 	max-width: 25px;
@@ -210,7 +188,14 @@ footer span img {
 footer span:last-of-type {
 	text-align: right;
 }
-
+/*----==== Content Area ====-----------------------------*/
+.sectionFlexBox {
+	width           : 100%;
+	min-height      : 100%;
+	background-color: #007ac1;
+	color           : white;
+	font-size       : 1.2em;
+}
 /*------- Primary Content ------------------------------*/
 .contentFlexColumn {
 	background-color: #546e7a;
@@ -220,14 +205,11 @@ footer span:last-of-type {
 	background-color: #fff;
 	color: #29434e;
 }
-
 .primaryContent h3,
 .primaryContent h4 {
 	color           : #29434e;
 	background-color: #819ca9;
 	border-radius   : 8px;
-/*	padding         :.3em;
-	margin          : .2em;*/
 	box-shadow      : 0 .3em .3em -.2em #29434e;
 }
 /*------- Sidebar/other content ------------------------------*/
@@ -235,7 +217,7 @@ footer span:last-of-type {
 .tertiaryContent {
 	background-color: #546e7a;
 	font-size       : .75em;
-  	flex: 0 0 12em;
+  	flex: 0 0 10em;
 	padding         : .3em .4em;
 }
 .tertiaryContent {
@@ -250,18 +232,40 @@ footer span:last-of-type {
 	margin       : 0 .5em 0 0;
 	display: block;
 }
-
 .tertiaryContent article {
 	overflow: auto;
 }
 
-.sectionFlexBox {
-	width           : 100%;
-	min-height      : 100%;
-	background-color: #007ac1;
-	color           : white;
-	font-size       : 1.2em;
-
+/*-------------MEDIA QUERIES--------------------*/
+@media (min-width: 768px) {
+  	.contentFlexColumn {
+		align-items: stretch;
+	}
+    .sectionFlexBox {
+	  	display: inline-flex;
+	    flex-direction: row;
+	    flex: 1;
+	    align-items: stretch;
+		flex-grow: 4;
+	}
+	.secondaryContent {
+	box-shadow: inset .1em .1em .4em .1em #29434e;
+	}
+	.tertiaryContent {
+		order: -1;
+		box-shadow: inset -.1em .1em .4em .1em #29434e;
+	}
+	.primaryContent {
+		flex: 1;
+	}
+	.tertiaryContent img {
+		float: none;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	/*.header img {
+		display: block;
+	}*/
 }
 
 

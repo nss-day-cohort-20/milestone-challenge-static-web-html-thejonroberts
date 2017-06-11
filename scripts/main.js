@@ -110,7 +110,7 @@ bioHTML = `<article>
 homeHTML = `<article>
 				<h3>HTML Challenge Exercise</h3>
 				<p>This is a milestone challenge for Nashville Software School.  I hope to have some more content here shortly.</p>
-			</article>`
+			</article>`;
 //Contact Page ------------------------------------------
 //Page ------------------------------------------
 //Page ------------------------------------------
